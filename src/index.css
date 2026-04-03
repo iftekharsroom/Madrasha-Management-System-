@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #065f46; /* Emerald 800 - Green */
+  --color-secondary: #ffffff;
+  --color-accent: #d4af37; /* Gold */
+  --color-accent-hover: #b8962e;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.islamic-pattern {
+  background-image: url("https://www.transparenttextures.com/patterns/islamic-art.png");
+}

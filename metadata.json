@@ -1,0 +1,7 @@
+{
+  "name": "Chami Moslemia Dakhil Madrasha SMS",
+  "description": "A professional School Management System for Chami Moslemia Dakhil Madrasha, featuring role-based access, student/teacher management, attendance, results, and a public website.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
